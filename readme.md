@@ -4,6 +4,8 @@
 
 Useful for tools that needs to know whether to use `yarn` or `npm` to install dependencies.
 
+Checks if a `yarn.lock` file is present in the working directory.
+
 
 ## Install
 
