@@ -2,7 +2,9 @@
 
 > Check if a project is using [Yarn](https://yarnpkg.com)
 
-Useful for tools that needs to know whether to use `yarn` or `npm` to install dependencies. Checks if a `yarn.lock` file is present in the root of the working directory.
+Useful for tools that needs to know whether to use `yarn` or `npm` to install dependencies.
+
+Checks if a `yarn.lock` file is present in the working directory.
 
 
 ## Install
