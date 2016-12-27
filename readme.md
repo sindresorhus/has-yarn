@@ -12,6 +12,10 @@ Checks if a `yarn.lock` file is present in the working directory.
 ```
 $ npm install --save has-yarn
 ```
+or
+```
+$ yarn add has-yarn
+```
 
 
 ## Usage
