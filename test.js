@@ -1,8 +1,8 @@
 import test from 'ava';
-import m from './';
+import hasYarn from '.';
 
-test(t => {
-	t.true(m('fixtures/bar'));
-	t.false(m('fixtures/foo'));
-	t.false(m());
+test('main', t => {
+	t.true(hasYarn('fixtures/bar'));
+	t.false(hasYarn('fixtures/foo'));
+	t.false(hasYarn());
 });

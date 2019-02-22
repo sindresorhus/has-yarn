@@ -10,7 +10,7 @@ Checks if a `yarn.lock` file is present in the working directory.
 ## Install
 
 ```
-$ npm install --save has-yarn
+$ npm install has-yarn
 ```
 
 
