@@ -50,6 +50,11 @@ Default: `process.cwd()`
 Current working directory.
 
 
+## Related
+
+- [has-yarn-cli](https://github.com/sindresorhus/has-yarn-cli) - CLI for this module
+
+
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)
