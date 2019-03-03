@@ -13,7 +13,8 @@
 		"node": ">=8"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"lint:fix": "xo --fix"
 	},
 	"files": [
 		"index.js"
@@ -33,5 +34,8 @@
 	"devDependencies": {
 		"ava": "^1.2.1",
 		"xo": "^0.24.0"
+	},
+	"dependencies": {
+		"shelljs": "^0.8.3"
 	}
 }
