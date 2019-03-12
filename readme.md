@@ -4,7 +4,7 @@
 
 Useful for tools that needs to know whether to use `yarn` or `npm` to install dependencies.
 
-Checks if a `yarn.lock` file is present in the working directory.
+It checks if a `yarn.lock` file is present in the working directory.
 
 
 ## Install
@@ -40,7 +40,7 @@ hasYarn('bar');
 
 ### hasYarn([cwd])
 
-Returns a `boolean`.
+Returns a `boolean` of whether the project uses Yarn.
 
 #### cwd
 
