@@ -5,6 +5,7 @@
 Useful for tools that needs to know whether to use `yarn` or `npm` to install dependencies.
 
 It checks if a `yarn.lock` file is present in the working directory.
+Or if in a boilerplate project (not runned `install` yet), it checks if `yarn command` exists.
 
 
 ## Install

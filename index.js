@@ -19,7 +19,7 @@ const hasYarn = (cwd = process.cwd()) => {
 		// * If has node_modules by no lock, considering already using npm
 		has = false;
 	} else {
-		// * If none of above, consider an empty project, check yarn command exist
+		// * If none of above, consider an empty project, check if yarn command exist
 		has = commandExistsSync('yarn');
 	}
 
