@@ -1,4 +1,4 @@
-# has-yarn [![Build Status](https://travis-ci.org/sindresorhus/has-yarn.svg?branch=master)](https://travis-ci.org/sindresorhus/has-yarn)
+# has-yarn
 
 > Check if a project is using [Yarn](https://yarnpkg.com)
 
