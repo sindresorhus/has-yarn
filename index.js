@@ -1,9 +1,7 @@
-'use strict';
-const path = require('path');
-const fs = require('fs');
+import process from 'node:process';
+import path from 'node:path';
+import fs from 'node:fs';
 
-const hasYarn = (cwd = process.cwd()) => fs.existsSync(path.resolve(cwd, 'yarn.lock'));
-
-module.exports = hasYarn;
-// TODO: Remove this for the next major release
-module.exports.default = hasYarn;
+export default function hasYarn(cwd = process.cwd()) {
+	return fs.existsSync(path.resolve(cwd, 'yarn.lock'));
+}

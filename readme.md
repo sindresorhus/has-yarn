@@ -6,13 +6,11 @@ Useful for tools that needs to know whether to use `yarn` or `npm` to install de
 
 It checks if a `yarn.lock` file is present in the working directory.
 
-
 ## Install
 
 ```
 $ npm install has-yarn
 ```
-
 
 ## Usage
 
@@ -26,7 +24,7 @@ $ npm install has-yarn
 ```
 
 ```js
-const hasYarn = require('has-yarn');
+import hasYarn from 'has-yarn';
 
 hasYarn('foo');
 //=> false
@@ -35,26 +33,19 @@ hasYarn('bar');
 //=> true
 ```
 
-
 ## API
 
-### hasYarn([cwd])
+### hasYarn(cwd?)
 
 Returns a `boolean` of whether the project uses Yarn.
 
 #### cwd
 
-Type: `string`<br>
+Type: `string`\
 Default: `process.cwd()`
 
-Current working directory.
-
+The current working directory.
 
 ## Related
 
 - [has-yarn-cli](https://github.com/sindresorhus/has-yarn-cli) - CLI for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

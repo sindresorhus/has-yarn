@@ -1,5 +1,5 @@
 import test from 'ava';
-import hasYarn from '.';
+import hasYarn from './index.js';
 
 test('main', t => {
 	t.true(hasYarn('fixtures/bar'));
