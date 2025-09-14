@@ -52,4 +52,4 @@ The directory to check. The search also walks up parent directories until the fi
 
 ## Related
 
-- [has-yarn-cli](https://github.com/sindresorhus/has-yarn-cli) - CLI for this module
+- [has-yarn-cli](https://github.com/sindresorhus/has-yarn-cli) - CLI for this package
