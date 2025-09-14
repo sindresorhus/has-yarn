@@ -4,12 +4,12 @@
 
 Useful for tools that needs to know whether to use `yarn` or `npm` to install dependencies.
 
-It checks if a `yarn.lock` file is present in the working directory.
+It checks for a `yarn.lock` file in the given directory or any of its parent directories (useful for Yarn workspaces).
 
 ## Install
 
-```
-$ npm install has-yarn
+```sh
+npm install has-yarn
 ```
 
 ## Usage
@@ -31,6 +31,10 @@ hasYarn('foo');
 
 hasYarn('bar');
 //=> true
+
+// In a Yarn workspace
+hasYarn('bar/packages/some-package');
+//=> true
 ```
 
 ## API
@@ -44,7 +48,7 @@ Returns a `boolean` of whether the project uses Yarn.
 Type: `string`\
 Default: `process.cwd()`
 
-The current working directory.
+The directory to check. The search also walks up parent directories until the filesystem root.
 
 ## Related
 
